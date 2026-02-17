@@ -5,7 +5,7 @@ This repository contains a fully connected neural network implementation in **Py
 
 ---
 
-## 📝 Project Overview
+#Project Overview
 
 - **Dataset:** MNIST (28x28 grayscale images of digits 0–9)  
 - **Objective:** Accurately classify handwritten digits using a neural network  
@@ -30,7 +30,7 @@ This repository contains a fully connected neural network implementation in **Py
 
 ---
 
-## 🔧 Parameters and Design Choices
+#Parameters and Design Choices
 
 - **Hidden Layers:** Two layers (128 → 64 neurons) balance **complexity** and **performance**.  
 - **Activation Function:** ReLU introduces non-linearity and prevents vanishing gradient issues.  
@@ -49,7 +49,7 @@ As a result, **training and validation curves stay close together**, and the mod
 
 ---
 
-## 📊 Training and Validation
+#Training and Validation
 
 - The model was trained on **80% of the MNIST training set**, with 20% reserved for validation.  
 - **Observations:**  
@@ -58,13 +58,17 @@ As a result, **training and validation curves stay close together**, and the mod
   - Dropout and weight decay help maintain this balance.  
 
 
-## 🎯 Model Evaluation
+#Results and Analysis
 
-- Evaluated on the MNIST test set: **Test Accuracy ≈ 97–98%**  
-- **Sample predictions** show the model correctly classifies handwritten digits:  
+After training the neural network on the MNIST dataset, the following observations were made:
 
-*Figure 2: Sample MNIST test images with True (T) and Predicted (P) labels*
+- **Training and Validation Performance:**  
+  - Training and validation **loss decreased smoothly** over epochs.  
+  - Training and validation **accuracy increased together**, staying very close (~97%).  
+  - This indicates the model is **well-fitted**, showing **no overfitting** (validation loss is not rising) and **no underfitting** (accuracy is high for both sets).  
 
----
+- **Regularization Effect:**  
+  - **Dropout (0.2)** prevents
+
 
 
