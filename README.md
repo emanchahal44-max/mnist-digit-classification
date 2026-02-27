@@ -1,4 +1,4 @@
-# mnist-digit-classification
+
 # MNIST Digit Classification with PyTorch
 
 This repository contains a fully connected neural network implementation in **PyTorch** for **classifying handwritten digits** from the MNIST dataset. The project demonstrates **key neural network concepts**, including network architecture design, activation functions, regularization techniques, and performance visualization.
